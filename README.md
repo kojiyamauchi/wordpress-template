@@ -1,6 +1,8 @@
-# Usage.
+# WordPress Template Kit.  
 
-## Use Local by Flywheel.
+## Usage.
+
+### Use Local by Flywheel.
 
 <https://local.getflywheel.com/>
 
