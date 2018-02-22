@@ -30,12 +30,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Default css -->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css">
-  <!-- jQuery -->
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-3.2.1.min.js"></script>
   <!-- Font Awesome JS -->
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/fontawesome-all.min.js"></script>
-  <!-- Original Js Flie -->
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/default.min.js"></script>
+  <!-- Core Js Flie -->
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/core.min.js"></script>
   <?php if (has_action('wp_head', '_admin_bar_bump_cb')) {
     remove_action('wp_head', '_admin_bar_bump_cb');
 } wp_head(); ?>
