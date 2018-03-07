@@ -12,12 +12,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="" />
-  <meta property="og:site_name" content="" />
+  <!-- Add OGP Information -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:title" content=""/>
+  <meta property="og:description" content=""/>
+  <meta property="og:image" content=""/>
+  <meta name="twitter:card" content="summary_large_image"/>
   <!-- Add Favicon & WebClip -->
   <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_url'); ?>/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/images/favicons/favicon-32x32.png" sizes="32x32">
