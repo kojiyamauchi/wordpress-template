@@ -1,8 +1,8 @@
 /*
 
- app.js
+ App.ts
 
 */
 export default class App {
-  constructor() {}
+  constructor() { }
 }
