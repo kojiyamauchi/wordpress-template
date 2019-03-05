@@ -33,9 +33,9 @@
   <!-- Default css -->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css">
   <!-- Font Awesome JS -->
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/fontawesome-all.min.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/fontawesome-all.min.js" defer></script>
   <!-- Core Js Flie -->
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/core.min.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/core.min.js" defer></script>
   <?php if (has_action('wp_head', '_admin_bar_bump_cb')) {
     remove_action('wp_head', '_admin_bar_bump_cb');
 } wp_head(); ?>
